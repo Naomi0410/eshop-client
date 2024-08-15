@@ -89,7 +89,7 @@ export default function Home() {
             </div>
           </div>
           {errCat && (
-            <Alert variant="danger" className="mt-5">
+            <Alert variant="danger" className="mt-5 px-3">
               {errCat?.response?.data?.error || errCat.message}
             </Alert>
           )}
@@ -99,7 +99,7 @@ export default function Home() {
           <Headings
             text={
               <>
-                <span className="fw-bold text-black me-2">Featured.</span>Take a
+                <span className="fw-bold text-black me-2 mb-1">Featured.</span>Take a
                 look at our featured products.
               </>
             }
@@ -108,7 +108,7 @@ export default function Home() {
             size="1.5rem"
           />
           {errFeat && (
-            <Alert variant="danger" className="mt-5">
+            <Alert variant="danger" className="mt-5 px-3">
               {errFeat?.response?.data?.error || errFeat.message}
             </Alert>
           )}
@@ -131,11 +131,11 @@ export default function Home() {
               </>
             }
             color="var(--bg-zinc-600)"
-            extra={`${styles.heroAdjust} mb-4 px-3`}
+            extra={`${styles.heroAdjust} mb-1 px-3`}
             size="1.5rem"
           />
           {error && (
-            <Alert variant="danger" className="mt-5">
+            <Alert variant="danger" className="mt-5 px-3">
               {error?.response?.data?.error || error.message}
             </Alert>
           )}
@@ -174,11 +174,11 @@ export default function Home() {
               </>
             }
             color="var(--bg-zinc-600)"
-            extra={`${styles.heroAdjust} mb-4 px-3`}
+            extra={`${styles.heroAdjust} mb-1 px-3`}
             size="1.5rem"
           />
           {err && (
-            <Alert variant="danger" className="mt-5">
+            <Alert variant="danger" className="mt-5 px-3">
               {err?.response?.data?.error || err.message}
             </Alert>
           )}

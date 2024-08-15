@@ -3,7 +3,7 @@ import { NavLink, useLocation } from "react-router-dom";
 import classnames from "classnames";
 import { CiSearch, CiShoppingCart } from "react-icons/ci";
 import { Badge, Container, Dropdown } from "react-bootstrap";
-import { IoBagSharp } from "react-icons/io5";
+import { FaSprayCanSparkles } from "react-icons/fa6";
 import { GoPerson } from "react-icons/go";
 import { IoIosLogOut } from "react-icons/io";
 import Drawer from "./Drawer";
@@ -22,7 +22,7 @@ export default function Nav() {
         <Drawer />
         <NavLink to="/" className="me-4">
           <div className="d-flex align-items-center gap-1">
-            <IoBagSharp size="24px" color="#3f3f46" />
+            <FaSprayCanSparkles size="24px" color="#3f3f46" />
             <span className="fs-5 fw-medium text-black mt-1">SCENTWAVE</span>
           </div>
         </NavLink>

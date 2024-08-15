@@ -7,7 +7,7 @@ import { Navigation } from "swiper/modules";
 
 const FeaturedProducts = ({ featuredProducts }) => {
   return (
-    <div className="mt-4 featuredProducts py-5 px-lg-4 rounded-4 shadow-sm">
+    <div className="py-3 px-lg-4 rounded-4">
       <Swiper
         navigation={true}
         modules={[Navigation]}
@@ -60,7 +60,7 @@ const FeaturedProducts = ({ featuredProducts }) => {
         {featuredProducts?.products?.map((item) => (
           <Link
             key={item._id}
-            className="homeBox position-relative rounded-4"
+            className="homeBox position-relative rounded-4 shadow-sm"
             to={`/products/${item.category.toLowerCase()}/${item.slug}`}
           >
             <LazyLoadImage
