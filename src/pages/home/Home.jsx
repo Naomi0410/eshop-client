@@ -62,8 +62,7 @@ export default function Home() {
           <Headings
             text={
               <>
-                <span className="fw-bold text-black me-2">ScentWave.</span>The
-                best way to buy the products you love.
+                <span className="fw-bold text-black me-2">ScentWave.</span>Explore, indulge, and find your signature aroma.
               </>
             }
             color="var(--bg-zinc-600)"
