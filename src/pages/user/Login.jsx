@@ -38,7 +38,7 @@ export default function Login() {
   });
 
   return (
-    <AuthLayout caption="Login to your Footsy account">
+    <AuthLayout caption="Login to your ScentWave account">
       <Form
         className={`${styles.form} mx-auto`}
         onSubmit={handleSubmit(onFormSubmit)}
@@ -101,7 +101,7 @@ export default function Login() {
           color="var(--bg-zinc-700)"
         />
         <Texts
-          text="Proceed to create a Footsy account"
+          text="Proceed to create a ScentWave account"
           size="1.1rem"
           color="var(--bg-zinc-700)"
         />
